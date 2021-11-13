@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  },
+  "name": "challenge-8-team-profile-generator",
+  "description": "Generates an interactive HTML document based on command line user input",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thesselonian/team-profile-generator.git"
+  },
+  "author": "Eric Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thesselonian/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/Thesselonian/team-profile-generator#readme"
+}
