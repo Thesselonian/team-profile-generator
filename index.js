@@ -1,6 +1,5 @@
-const promptUser = require('./lib/questions')
+const promptManagerQuestions = require('./lib/managerQuestions')
+const typeOfEmployee = require('./lib/employeeQuestions')
 
-promptUser()
-.then((answers) => {
-    console.log(answers);
-})
+promptManagerQuestions()
+.then(typeOfEmployee)
