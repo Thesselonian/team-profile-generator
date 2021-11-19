@@ -4,10 +4,10 @@ const {generateManagerHTML, generateEngineerHTML, generateInternHTML } = require
 test('a div is created for manager information', () => {
     const managerObject = 
     {
-        managerName: 'eric',
-        managerID: '3',
-        managerEmail: 'ericyoung111@gmail.com',
-        managerOfficeNumber: '123'
+        name: 'eric',
+        ID: '3',
+        email: 'ericyoung111@gmail.com',
+        officeNumber: '123'
     };
     const result = generateManagerHTML(managerObject);
     const expected =
@@ -27,10 +27,10 @@ test('a div is created for manager information', () => {
 test('a div is created for engineer information', () => {
     const engineerObject = 
     {
-        engineerName: 'eric',
-        engineerID: '3',
-        engineerEmail: 'ericyoung111@gmail.com',
-        engineerGitHub: 'Thesselonian'
+        name: 'eric',
+        ID: '3',
+        email: 'ericyoung111@gmail.com',
+        github: 'Thesselonian'
     };
     const result = generateEngineerHTML(engineerObject);
     const expected =
@@ -50,10 +50,10 @@ test('a div is created for engineer information', () => {
 test('a div is created for intern information', () => {
     const internObject = 
     {
-        internName: 'eric',
-        internID: '3',
-        internEmail: 'ericyoung111@gmail.com',
-        internUniversity: 'Weber State'
+        name: 'eric',
+        ID: '3',
+        email: 'ericyoung111@gmail.com',
+        school: 'Weber State'
     };
     const result = generateInternHTML(internObject);
     const expected =
