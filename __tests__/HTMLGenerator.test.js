@@ -16,7 +16,7 @@ test('a div is created for manager information', () => {
             <div class="card-body">
                 <h5 class="card-title">Manager: eric</h5>
                 <p class="card-text">Employee ID: 3</p>
-                <p class="card-text">Email: ericyoung111@gmail.com</p>
+                <a href="mailto:ericyoung111@gmail.com">Email: ericyoung111@gmail.com</a>
                 <p class="card-text">Office Number: 123</p>
             </div>
         </div>
@@ -39,8 +39,8 @@ test('a div is created for engineer information', () => {
             <div class="card-body">
                 <h5 class="card-title">Engineer: eric</h5>
                 <p class="card-text">Employee ID: 3</p>
-                <p class="card-text">Email: ericyoung111@gmail.com</p>
-                <p class="card-text">GitHub: Thesselonian</p>
+                <a href="mailto:ericyoung111@gmail.com">Email: ericyoung111@gmail.com</a>
+                <a href="https://github.com/Thesselonian">Thesselonian</a>
             </div>
         </div>
     `
@@ -62,7 +62,7 @@ test('a div is created for intern information', () => {
             <div class="card-body">
                 <h5 class="card-title">Intern: eric</h5>
                 <p class="card-text">Employee ID: 3</p>
-                <p class="card-text">Email: ericyoung111@gmail.com</p>
+                <a href="mailto:ericyoung111@gmail.com">Email: ericyoung111@gmail.com</a>
                 <p class="card-text">University: Weber State</p>
             </div>
         </div>
