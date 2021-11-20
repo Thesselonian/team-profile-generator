@@ -18,7 +18,7 @@ Install dependencies with npm install then run the application using node index.
 
 ## Link to Video Walk Through
 
-https://watch.screencastify.com/v/zJ9tlkIG6uv4LDjfK9Cf
+https://watch.screencastify.com/v/FR1Y6E05gb9ZuSghjZDZ
 
 
 ## License
